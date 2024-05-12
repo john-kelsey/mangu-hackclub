@@ -1,83 +1,2246 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Coming Soon</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width"/>
+        <meta charSet="utf-8"/>
+        <meta property="og:locale" content="en_US"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:site_name" content="Mang'u Hack Club"/>
+        <meta property="og:title" content="Mang'u Hack Club"/>
+        <meta name="twitter:title" content="Mang'u Hack Club"/>
+        <meta name="theme-color" content="#ec3750"/>
+        <meta name="msapplication-TileColor" content="#ec3750"/>
+        <link rel="mask-icon" href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg" color="#ec3750"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://assets.hackclub.com/favicons/apple-touch-icon.png"/>
+        <link rel="icon" type="image/png" sizes="32x32" href="https://assets.hackclub.com/favicons/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://assets.hackclub.com/favicons/favicon-16x16.png"/>
+        <link rel="manifest" href="https://assets.hackclub.com/favicons/site.webmanifest"/>
+        <meta name="twitter:site" content="@"/>
+        <title>Mang'u Hack Club</title>
+        <meta name="next-head-count" content="16"/>
+        <link rel="preload" href="/_next/static/css/83c55b1d7051900000b0.css" as="style"/>
+        <link rel="stylesheet" href="/_next/static/css/83c55b1d7051900000b0.css"/>
+        <link rel="preload" href="/_next/static/chunks/main-f476aac0a8848e0d8448.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/webpack-488dc228921f1fdbc0e7.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/framework.2bcaee6b7a18992fa1c5.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/33ae0775124a90468ef9aeb9ace91063700a85a3.703fbe46207251bc5a50.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.c7550f8ccfc5ab475eae.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/pages/_app-08ced872592af29ce7ef.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/fcca927b636558ec201c52bbc56a78ca69a5c73f.2c3e526bdb579c8e103d.js" as="script"/>
+        <link rel="preload" href="/_next/static/chunks/pages/index-e5bc24bc39080db2e520.js" as="script"/>
     </head>
     <body>
-        <!-- Background Video-->
-        <video class="bg-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop"><source src="assets/mp4/bg.mp4" type="video/mp4" /></video>
-        <!-- Masthead-->
-        <div class="masthead">
-            <div class="masthead-content text-white">
-                <div class="container-fluid px-4 px-lg-0">
-                    <h1 class="fst-italic lh-1 mb-4">Our Website is Coming Soon</h1>
-                    <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!</p>
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- * * SB Forms Contact Form * *-->
-                    <!-- * * * * * * * * * * * * * * *-->
-                    <!-- This form is pre-integrated with SB Forms.-->
-                    <!-- To make this form functional, sign up at-->
-                    <!-- https://startbootstrap.com/solution/contact-forms-->
-                    <!-- to get an API token!-->
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <!-- Email address input-->
-                        <div class="row input-group-newsletter">
-                            <div class="col"><input class="form-control" id="email" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+        <script>
+            (function() {
+                try {
+                    var mode = localStorage.getItem('theme-ui-color-mode');
+                    if (!mode)
+                        return
+                    document.body.classList.add('theme-ui-' + mode);
+                } catch (e) {}
+            }
+            )();
+        </script>
+        <div id="__next">
+            <style data-emotion-css="1j6gku7">
+                body {
+                    --theme-ui-colors-darker: var(--theme-ui-colors-darker,#121217);
+                    --theme-ui-colors-dark: var(--theme-ui-colors-dark,#17171d);
+                    --theme-ui-colors-darkless: var(--theme-ui-colors-darkless,#252429);
+                    --theme-ui-colors-black: var(--theme-ui-colors-black,#1f2d3d);
+                    --theme-ui-colors-steel: var(--theme-ui-colors-steel,#273444);
+                    --theme-ui-colors-slate: var(--theme-ui-colors-slate,#3c4858);
+                    --theme-ui-colors-muted: var(--theme-ui-colors-muted,#8492a6);
+                    --theme-ui-colors-smoke: var(--theme-ui-colors-smoke,#e0e6ed);
+                    --theme-ui-colors-snow: var(--theme-ui-colors-snow,#f9fafc);
+                    --theme-ui-colors-white: var(--theme-ui-colors-white,#ffffff);
+                    --theme-ui-colors-red: var(--theme-ui-colors-red,#ec3750);
+                    --theme-ui-colors-orange: var(--theme-ui-colors-orange,#ff8c37);
+                    --theme-ui-colors-yellow: var(--theme-ui-colors-yellow,#f1c40f);
+                    --theme-ui-colors-green: var(--theme-ui-colors-green,#33d6a6);
+                    --theme-ui-colors-cyan: var(--theme-ui-colors-cyan,#5bc0de);
+                    --theme-ui-colors-blue: var(--theme-ui-colors-blue,#338eda);
+                    --theme-ui-colors-twitter: var(--theme-ui-colors-twitter,#1da1f2);
+                    --theme-ui-colors-facebook: var(--theme-ui-colors-facebook,#3b5998);
+                    --theme-ui-colors-instagram: var(--theme-ui-colors-instagram,#e1306c);
+                    --theme-ui-colors-text: var(--theme-ui-colors-text,#1f2d3d);
+                    --theme-ui-colors-background: var(--theme-ui-colors-background,#ffffff);
+                    --theme-ui-colors-elevated: var(--theme-ui-colors-elevated,#ffffff);
+                    --theme-ui-colors-sheet: var(--theme-ui-colors-sheet,#f9fafc);
+                    --theme-ui-colors-sunken: var(--theme-ui-colors-sunken,#e0e6ed);
+                    --theme-ui-colors-border: var(--theme-ui-colors-border,#e0e6ed);
+                    --theme-ui-colors-placeholder: var(--theme-ui-colors-placeholder,#8492a6);
+                    --theme-ui-colors-secondary: var(--theme-ui-colors-secondary,#3c4858);
+                    --theme-ui-colors-primary: var(--theme-ui-colors-primary,#ec3750);
+                    --theme-ui-colors-accent: var(--theme-ui-colors-accent,#338eda);
+                    color: var(--theme-ui-colors-text,#1f2d3d);
+                    background-color: var(--theme-ui-colors-background,#ffffff);
+                }
+            </style>
+            <style data-emotion-css="1mhlp4p">
+                * {
+                    box-sizing: border-box;
+                }
+
+                body {
+                    margin: 0;
+                    font-family: "Phantom Sans",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    color: var(--theme-ui-colors-text,#1f2d3d);
+                    min-height: 100vh;
+                }
+            </style>
+            <style data-emotion-css="o3vkkk">
+                .css-o3vkkk {
+                    position: absolute;
+                    height: 100vh;
+                    width: 100vw;
+                    background-color: var(--theme-ui-colors-white,#ffffff);
+                    opacity: 0.99;
+                    display: none;
+                    padding-top: 90px;
+                    -webkit-flex-direction: column;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                }
+            </style>
+            <div class="css-o3vkkk">
+                <style data-emotion-css="1iiqka">
+                    .css-1iiqka {
+                        margin-left: 32px;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                </style>
+                <div class="css-1iiqka">
+                    <style data-emotion-css="1k9bne0">
+                        .css-1k9bne0 {
+                            font-size: 24px;
+                            margin-top: 8px;
+                            margin-bottom: 8px;
+                            width: 80%;
+                            border-bottom: 1px solid;
+                            border-color: var(--theme-ui-colors-smoke,#e0e6ed);
+                            padding-bottom: 16px;
+                            padding-left: 16px;
+                        }
+                    </style>
+                    <p class="css-1k9bne0">
+                        <style data-emotion-css="9rf9jj">
+                            .css-9rf9jj {
+                                font-weight: regular;
+                            }
+
+                            .css-9rf9jj:hover {
+                                cursor: pointer;
+                            }
+                        </style>
+                        <b class="css-9rf9jj">
+                        <!-- -->
+                        Home</b>
+                    </p>
+                </div>
+               
+                <div class="css-1iiqka">
+                    <p class="css-1k9bne0">
+                     <a href="https://www.hackclub.com" class="css-9rf9jj">
+                        <b>About</b>
+                     </a>
+                    </p>
+                </div>
+                <div class="css-1iiqka">
+                    <p class="css-1k9bne0">
+                     <a href="https://www.hackclub.com/hackathons/" class="css-9rf9jj">
+                        <b>Challenge</b>
+                     </a>
+                    </p>
+                </div>
+                <div class="css-1iiqka">
+                    <p class="css-1k9bne0">
+                     <a href="https://www.apply.hackclub.com" class="css-9rf9jj">
+                        <b>Join</b>
+                     </a>
+                    </p>
+                </div>  
+            </div>
+            <style data-emotion-css="1a0axyi">
+                .css-1a0axyi {
+                    width: 100%;
+                    position: fixed;
+                    z-index: 1000;
+                    background-color: var(--theme-ui-colors-white,#ffffff);
+                    opacity: 0.97;
+                    border-bottom: 1px solid rgba(48,48,48,0.125);
+                    min-height: 60px;
+                }
+            </style>
+            <div class="css-1a0axyi">
+                <style data-emotion-css="igmp06">
+                    .css-igmp06 {
+                        width: 100px;
+                        margin-left: 16px;
+                        position: absolute;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-igmp06 {
+                            width:120px;
+                            margin-left: 32px;
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-igmp06 {
+                            margin-left:32px;
+                        }
+                    }
+
+                    @media screen and (min-width: 64em) {
+                        .css-igmp06 {
+                            margin-left:64px;
+                        }
+                    }
+                </style>
+                <img src="hackclubflag.png" alt="Flag" class="css-igmp06"/>
+                <style data-emotion-css="1hix032">
+                    .css-1hix032 {
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-flex-direction: row-reverse;
+                        -ms-flex-direction: row-reverse;
+                        flex-direction: row-reverse;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1hix032 {
+                            -webkit-flex-direction:row-reverse;
+                            -ms-flex-direction: row-reverse;
+                            flex-direction: row-reverse;
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-1hix032 {
+                            -webkit-flex-direction:row;
+                            -ms-flex-direction: row;
+                            flex-direction: row;
+                            -webkit-box-pack: center;
+                            -webkit-justify-content: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                        }
+                    }
+                </style>
+                <div class="css-1hix032">
+                    <style data-emotion-css="1lbt1au">
+                        .css-1lbt1au {
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-flex-direction: column;
+                            -ms-flex-direction: column;
+                            flex-direction: column;
+                            -webkit-box-pack: center;
+                            -webkit-justify-content: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                            height: 60px;
+                            margin-right: 16px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1lbt1au {
+                                display:-webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-1lbt1au {
+                                display:none;
+                            }
+                        }
+                    </style>
+                    <div class="css-1lbt1au">
+                        <span>
+                            <style data-emotion-css="10jr14j">
+                                .css-10jr14j:hover {
+                                    cursor: pointer;
+                                }
+                            </style>
+                            <svg fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" xmlns="http://www.w3.org/2000/svg" aria-label="menu" viewBox="0 0 32 32" preserveAspectRatio="xMidYMid meet" fill="currentColor" width="42" height="42" class="css-10jr14j">
+                                <g>
+                                    <path d="M9,10c0,-0.552 0.448,-1 1,-1l12,0c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1l-12,0c-0.552,0 -1,-0.448 -1,-1Z"></path>
+                                    <path d="M9,15c0,-0.552 0.448,-1 1,-1l12,0c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1l-12,0c-0.552,0 -1,-0.448 -1,-1Z"></path>
+                                    <path d="M9,20c0,-0.552 0.448,-1 1,-1l12,0c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1l-12,0c-0.552,0 -1,-0.448 -1,-1Z"></path>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                    <style data-emotion-css="fy1sct">
+                        .css-fy1sct {
+                            margin-left: 16px;
+                            margin-right: 16px;
+                            font-size: 20px;
+                            display: none;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-fy1sct {
+                                display:none;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-fy1sct {
+                                display:initial;
+                            }
+                        }
+                    </style>
+                    <p class="css-fy1sct">
+                        <style data-emotion-css="1yit9qp">
+                            .css-1yit9qp {
+                                cursor: pointer;
+                                color: mute;
+                            }
+                        </style>
+                    </p>
+                    <p class="css-fy1sct">
+                        <a href="https://www.hackclub.com/hackathon/" class="css-1yit9qp">
+                            Challenge
+                        </a>
+                    </p>
+                    <p class="css-fy1sct">
+                        <a href="https://www.apply.hackclub.com" class="css-1yit9qp">
+                            Join
+                        </a>
+                    </p>
+                    <p class="css-fy1sct">
+                        <a href="https://www.hackclub.com" class="css-1yit9qp">
+                            About
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <style data-emotion-css="kvmw0s">
+                .css-kvmw0s {
+                    width: 100%;
+                    background: linear-gradient(125.06deg,#005AB5 0%,#003F7D 74.28%);
+                    padding-top: 32px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-kvmw0s {
+                        padding-top:64px;
+                    }
+                }
+            </style>
+            <div class="css-kvmw0s">
+                <style data-emotion-css="hfw7wa">
+                    .css-hfw7wa {
+                        width: 100%;
+                        display: -webkit-box;
+                        display: -webkit-flex;
+                        display: -ms-flexbox;
+                        display: flex;
+                        -webkit-box-pack: center;
+                        -webkit-justify-content: center;
+                        -ms-flex-pack: center;
+                        justify-content: center;
+                        margin-top: 64px;
+                    }
+                </style>
+                <div class="css-hfw7wa">
+                    <style data-emotion-css="h0jsrq">
+                        .css-h0jsrq {
+                            height: 50px;
+                            margin-right: 16px;
+                            margin-top: 4px;
+                            display: initial;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-h0jsrq {
+                                height:80px;
+                                margin-right: 32px;
+                                margin-top: 0;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-h0jsrq {
+                                height:80px;
+                                margin-right: 32px;
+                                margin-top: 0;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-h0jsrq {
+                                height:100px;
+                                margin-right: 32px;
+                                margin-top: 8px;
+                            }
+                        }
+                    </style>
+                    <img class="css-h0jsrq"/>
+                    <style data-emotion-css="vd3o3z">
+                        .css-vd3o3z {
+                            color: var(--theme-ui-colors-white,#ffffff);
+                            font-size: 48px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-vd3o3z {
+                                font-size:64px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-vd3o3z {
+                                font-size:64px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-vd3o3z {
+                                font-size:96px;
+                            }
+                        }
+                    </style>
+                    <h1 class="css-vd3o3z">Welcome</h1>
+                    <style data-emotion-css="1tx8le6">
+                        .css-1tx8le6 {
+                            height: 70px;
+                            margin-left: 16px;
+                            margin-top: 0;
+                            display: initial;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1tx8le6 {
+                                height:100px;
+                                margin-left: 32px;
+                                margin-top: 0;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-1tx8le6 {
+                                height:100px;
+                                margin-left: 32px;
+                                margin-top: 0;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-1tx8le6 {
+                                height:120px;
+                                margin-left: 32px;
+                                margin-top: 8px;
+                            }
+                        }
+                    </style>
+                    <img src="icon-rounded.png" alt="icon" class="css-1tx8le6"/>
+                </div>
+                <style data-emotion-css="fzwid6">
+                    .css-fzwid6 {
+                        width: 100%;
+                        text-align: center;
+                    }
+                </style>
+                <div class="css-fzwid6">
+                    <style data-emotion-css="d4nget">
+                        .css-d4nget {
+                            color: var(--theme-ui-colors-white,#ffffff);
+                            font-size: 48px;
+                            margin-top: 0;
+                            margin-bottom: 8px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-d4nget {
+                                font-size:64px;
+                                margin-bottom: 16px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-d4nget {
+                                font-size:64px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-d4nget {
+                                font-size:96px;
+                            }
+                        }
+                    </style>
+                    <h1 class="css-d4nget">
+                        <style data-emotion-css="kk1zlu">
+                            .css-kk1zlu {
+                                color: var(--theme-ui-colors-green,#33d6a6);
+                            }
+                        </style>
+                        <span class="css-kk1zlu">Mang'u</span>
+                        <span class="css-kk1zlu">Hack</span>
+                        <span class="css-kk1zlu">Club</span>
+                    </h1>
+                </div>
+                <style data-emotion-css="t2uris">
+                    .css-t2uris {
+                        width: 100%;
+                        text-align: center;
+                        padding-bottom: 64px;
+                        color: var(--theme-ui-colors-white,#ffffff);
+                    }
+                </style>
+                <div class="css-t2uris">
+                    <style data-emotion-css="1rm2spn">
+                        .css-1rm2spn {
+                            font-size: 20px;
+                            margin-left: 32px;
+                            margin-right: 32px;
+                            margin-top: 0;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1rm2spn {
+                                font-size:24px;
+                            }
+                        }
+                    </style>
+                    <p class="css-1rm2spn">To give a teenager the skills, confidence, and opportunity to change their world🌎</p>
+                    <p class="css-1rm2spn">We believe in working and learning together</p>
+                </div>
+            </div>
+            <style data-emotion-css="n5zij5">
+                .css-n5zij5 {
+                    margin-left: 16px;
+                    margin-bottom: 16px;
+                    margin-top: 16px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-n5zij5 {
+                        margin-bottom:32px;
+                        margin-left: 64px;
+                    }
+                }
+
+                @media screen and (min-width: 48em) {
+                    .css-n5zij5 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 64em) {
+                    .css-n5zij5 {
+                        margin-left:64px;
+                    }
+                }
+            </style>
+            <div class="css-n5zij5">
+                <style data-emotion-css="fr7vcn">
+                    .css-fr7vcn {
+                        margin-bottom: 0;
+                        color: grey;
+                    }
+                </style>
+                <h1 class="css-fr7vcn">What is Hack Club ?</h1>
+                <style data-emotion-css="1d3hncm">
+                    .css-1d3hncm {
+                        font-size: 48px;
+                        width: 90vw;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1d3hncm {
+                            font-size:64px;
+                            width: 80vw;
+                        }
+                    }
+                </style>
+                <h1 class="css-1d3hncm">
+                    <style data-emotion-css="15zpzja">
+                        .css-15zpzja {
+                            color: var(--theme-ui-colors-primary,#ec3750);
+                        }
+                    </style>
+                    <span class="css-15zpzja">Philosophy</span>
+                </h1>
+                <style data-emotion-css="1puavw4">
+                    .css-1puavw4 {
+                        font-size: 24px;
+                        width: 80vw;
+                        margin-top: 0;
+                    }
+                </style>
+                <p class="css-1puavw4">Hack Club is an initiative for students by students. Hack Club is a place that lets you tinker, break, and rebuild. After all, you can &#x27;t make an omelet without breaking a few eggs 🍳</p>
+                <style data-emotion-css="1i8tjli">
+                    .css-1i8tjli {
+                        margin-top: 32px;
+                        padding-top: 16px;
+                    }
+                </style>
+                <style data-emotion-css="1mcgcga">
+                    .css-1mcgcga {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        grid-template-columns: repeat(1,1fr);
+                        margin-top: 32px;
+                        padding-top: 16px;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1mcgcga {
+                            grid-template-columns:repeat(1,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-1mcgcga {
+                            grid-template-columns:repeat(3,1fr);
+                        }
+                    }
+                </style>
+                <div class="css-1mcgcga">
+                    <style data-emotion-css="zp3m9i">
+                        .css-zp3m9i {
+                            margin-right: 16px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-zp3m9i {
+                                margin-right:32px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-zp3m9i {
+                                margin-right:0;
+                            }
+                        }
+                    </style>
+                    <div class="css-zp3m9i">
+                        <style data-emotion-css="13mj9ex">
+                            .css-13mj9ex {
+                                background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0) 50%),url(hackclubintro\group.jpg);
+                                height: 500px;
+                                width: 100%;
+                                border-radius: 5px;
+                                background-size: cover;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                padding-top: 4px;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-13mj9ex {
+                                    height:400px;
+                                    border-radius: 8px;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-13mj9ex {
+                                    height:500px;
+                                }
+                            }
+                        </style                   
+                        
+                    </div>
+                </div>
+            </div>
+            <style data-emotion-css="1q7o7y5">
+                .css-1q7o7y5 {
+                    margin-left: 16px;
+                    margin-bottom: 64px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-1q7o7y5 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 48em) {
+                    .css-1q7o7y5 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 64em) {
+                    .css-1q7o7y5 {
+                        margin-left:64px;
+                    }
+                }
+            </style>
+            <div class="css-1q7o7y5">
+                <style data-emotion-css="bold7s">
+                    .css-bold7s {
+                        color: var(--theme-ui-colors-green,#33d6a6);
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                </style>
+                <h1 class="css-bold7s">Join a global community !</h1>
+                <style data-emotion-css="1uzbehq">
+                    .css-1uzbehq {
+                        font-size: 48px;
+                        width: 90vw;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        color: var(--theme-ui-colors-red,#ec3750);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1uzbehq {
+                            font-size:64px;
+                            width: 80vw;
+                        }
+                    }
+                </style>
+                <h1 class="css-1uzbehq">Community 🌏</h1>
+                <style data-emotion-css="1jf5ohr">
+                    .css-1jf5ohr {
+                        font-size: 24px;
+                        width: 80vw;
+                        margin-top: 4px;
+                    }
+                </style>
+                <p class="css-1jf5ohr">Hack Club is a global community of hackers and with Hack Club, you get access to a super awesome community that will help you to learn, share, and grow.</p>
+                <style data-emotion-css="1nf10fi">
+                    .css-1nf10fi {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        grid-template-columns: repeat(1,1fr);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1nf10fi {
+                            grid-template-columns:repeat(1,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-1nf10fi {
+                            grid-template-columns:repeat(2,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 64em) {
+                        .css-1nf10fi {
+                            grid-template-columns:repeat(3,1fr);
+                        }
+                    }
+                </style>
+                <div class="css-1nf10fi">
+                    <style data-emotion-css="snno95">
+                        .css-snno95 {
+                            height: 500px;
+                            margin-right: 16px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-snno95 {
+                                margin-right:32px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-snno95 {
+                                margin-right:4px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-snno95 {
+                                grid-column:1/3;
+                            }
+                        }
+                    </style>
+                    <div class="css-snno95">
+                        <style data-emotion-css="ts2170">
+                            .css-ts2170 {
+                                background-image: linear-gradient(transparent,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.5) 100%),url("community.jpg");
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                width: 100%;
+                                background-size: cover;
+                                height: 100%;
+                                border-radius: 5px;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-flex-direction: column-reverse;
+                                -ms-flex-direction: column-reverse;
+                                flex-direction: column-reverse;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                padding-left: 16px;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-ts2170 {
+                                    border-radius:8px;
+                                }
+                            }
+                        </style>
+                        <div class="css-ts2170">
+                            <style data-emotion-css="cwincz">
+                                .css-cwincz {
+                                    padding-bottom: 64px;
+                                }
+                            </style>
+                            <span class="css-cwincz">
+                                <style data-emotion-css="rfacl5">
+                                    .css-rfacl5 {
+                                        color: var(--theme-ui-colors-green,#33d6a6);
+                                        margin-left: 8px;
+                                        margin-right: 8px;
+                                        font-size: 24px;
+                                        -webkit-text-decoration-line: none;
+                                        text-decoration-line: none;
+                                        margin-top: 0;
+                                    }
+
+                                    @media screen and (min-width: 32em) {
+                                        .css-rfacl5 {
+                                            margin-left:32px;
+                                            margin-right: 32px;
+                                        }
+                                    }
+
+                                    .css-rfacl5:hover {
+                                        -webkit-text-decoration-line: underline;
+                                        text-decoration-line: underline;
+                                        text-shadow: 1px 1px 5px black;
+                                    }
+                                </style>
+                                <a href="https://hackclub.com/slack/" target="_blank" class="css-rfacl5">
+                                    <b>Join our slack 
+                                    <!-- -->
+                                    &gt;</b>
+                                </a>
+                            </span>
+                            <style data-emotion-css="1p7fyap">
+                                .css-1p7fyap {
+                                    font-size: 24px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    margin-top: 16px;
+                                    margin-bottom: 4px;
+                                    text-shadow: 1px 1px 5px black;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-1p7fyap {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <p class="css-1p7fyap">
+                                <b>
+                                    We run our community <style data-emotion-css="2zdcbf">
+                                        .css-2zdcbf {
+                                            color: var(--theme-ui-colors-red,#ec3750);
+                                        }
+                                    </style>
+                                    <span class="css-2zdcbf">over slack</span>
+                                    , join hack club &#x27;s slack to chat with the other hack clubbers around the world.
+                                </b>
+                            </p>
+                            <style data-emotion-css="e0oeuf">
+                                .css-e0oeuf {
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    font-size: 32px;
+                                    text-shadow: 1px 1px 5px black;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-e0oeuf {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <h1 class="css-e0oeuf">A Global Community!</h1>
                         </div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:required">An email is required.</div>
-                        <div class="invalid-feedback mt-2" data-sb-feedback="email:email">Email is not valid.</div>
-                        <!-- Submit success message-->
-                        <!---->
-                        <!-- This is what your users will see when the form-->
-                        <!-- has successfully submitted-->
-                        <div class="d-none" id="submitSuccessMessage">
-                            <div class="text-center mb-3 mt-2">
-                                <div class="fw-bolder">Form submission successful!</div>
-                                To activate this form, sign up at
-                                <br />
-                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                    <style data-emotion-css="15n02cw">
+                        .css-15n02cw {
+                            margin-right: 16px;
+                            height: 500px;
+                            margin-top: 8px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-15n02cw {
+                                margin-top:0;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-15n02cw {
+                                grid-column:3/4;
+                            }
+                        }
+                    </style>
+                    <div class="css-15n02cw">
+                        <style data-emotion-css="wpqb72">
+                            .css-wpqb72 {
+                                background-image: linear-gradient(transparent,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.5) 100%),url("rickshaw.jpg");
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                width: 100%;
+                                background-size: cover;
+                                height: 100%;
+                                border-radius: 5px;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-flex-direction: column-reverse;
+                                -ms-flex-direction: column-reverse;
+                                flex-direction: column-reverse;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                padding-left: 16px;
+                                background-position: center center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-wpqb72 {
+                                    border-radius:8px;
+                                }
+                            }
+                        </style>
+                        <div class="css-wpqb72">
+                            <style data-emotion-css="13oc5y2">
+                                .css-13oc5y2 {
+                                    font-size: 24px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    margin-top: 16px;
+                                    margin-bottom: 32px;
+                                    text-shadow: 1px 1px 5px black;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-13oc5y2 {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <p class="css-13oc5y2">
+                                <b>
+                                    We are available on the<style data-emotion-css="kk1zlu">
+                                        .css-kk1zlu {
+                                            color: var(--theme-ui-colors-green,#33d6a6);
+                                        }
+                                    </style>
+                                    <span class="css-kk1zlu">#kenya channel </span>
+                                    on the hack club slack. Join us there and be part of the community.
+                                </b>
+                            </p>
+                            <h1 class="css-e0oeuf">
+                                Join us on <span class="css-kk1zlu">#kenya</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style data-emotion-css="5xys91">
+                .css-5xys91 {
+                    width: 100%;
+                    margin-left: 16px;
+                    margin-bottom: 64px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-5xys91 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 48em) {
+                    .css-5xys91 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 64em) {
+                    .css-5xys91 {
+                        margin-left:64px;
+                    }
+                }
+            </style>
+            <div class="css-5xys91">
+                <style data-emotion-css="fr7vcn">
+                    .css-fr7vcn {
+                        margin-bottom: 0;
+                        color: grey;
+                    }
+                </style>
+                <h1 class="css-fr7vcn">Share with the world !</h1>
+                <style data-emotion-css="14rnbhq">
+                    .css-14rnbhq {
+                        color: var(--theme-ui-colors-orange,#ff8c37);
+                        font-size: 48px;
+                        width: 90vw;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-14rnbhq {
+                            font-size:64px;
+                            width: 80vw;
+                        }
+                    }
+                </style>
+                <h1 class="css-14rnbhq">Scrapbook 📙</h1>
+                <style data-emotion-css="z693gr">
+                    .css-z693gr {
+                        font-size: 24px;
+                        width: 80vw;
+                    }
+                </style>
+                <p class="css-z693gr">
+                    A daily diary of what Hack Clubbers are learning &amp;making every day on<style data-emotion-css="2zdcbf">
+                        .css-2zdcbf {
+                            color: var(--theme-ui-colors-red,#ec3750);
+                        }
+                    </style>
+                    <span class="css-2zdcbf">Hack Club &#x27;s Scrapbook! </span>
+                    We know how good it feels to be able to share your ideas and work with others and that is what Scrapbook is for, go check it out!
+                </p>
+                <style data-emotion-css="310wh1">
+                    .css-310wh1 {
+                        margin-right: 32px;
+                        padding-right: 8px;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-310wh1 {
+                            margin-right:128px;
+                            padding-right: 0;
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-310wh1 {
+                            margin-right:0;
+                            padding-right: 0;
+                        }
+                    }
+                </style>
+                <style data-emotion-css="9lmxnd">
+                    .css-9lmxnd {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        grid-template-columns: repeat(1,1fr);
+                        margin-right: 32px;
+                        padding-right: 8px;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-9lmxnd {
+                            grid-template-columns:repeat(1,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-9lmxnd {
+                            grid-template-columns:repeat(3,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 64em) {
+                        .css-9lmxnd {
+                            grid-template-columns:repeat(3,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-9lmxnd {
+                            margin-right:128px;
+                            padding-right: 0;
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-9lmxnd {
+                            margin-right:0;
+                            padding-right: 0;
+                        }
+                    }
+                </style>
+                <div class="css-9lmxnd">
+                    <style data-emotion-css="sd160n">
+                        .css-sd160n {
+                            background: linear-gradient(124.23deg,#EC3750 25.03%,#FFB443 100%);
+                            color: var(--theme-ui-colors-white,#ffffff);
+                            border-radius: 5px;
+                            padding-bottom: 32px;
+                            padding-left: 32px;
+                            padding-right: 32px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-sd160n {
+                                border-radius:8px;
+                                padding-left: 32px;
+                                padding-right: 32px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-sd160n {
+                                padding-left:32px;
+                                padding-right: 32px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-sd160n {
+                                padding-left:initial;
+                                padding-right: initial;
+                                grid-column: 1/3;
+                            }
+                        }
+                    </style>
+                    <div class="css-sd160n">
+                        <style data-emotion-css="1aetys8">
+                            .css-1aetys8 {
+                                width: 100%;
+                                text-align: center;
+                                font-size: 48px;
+                                margin-top: 32px;
+                                margin-bottom: 32px;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-1aetys8 {
+                                    font-size:64px;
+                                }
+                            }
+                        </style>
+                        <h1 class="css-1aetys8">Scrapbook!</h1>
+                        <style data-emotion-css="15s8d02">
+                            .css-15s8d02 {
+                                -webkit-flex-direction: column;
+                                -ms-flex-direction: column;
+                                flex-direction: column;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                justify-items: center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-15s8d02 {
+                                    -webkit-flex-direction:column;
+                                    -ms-flex-direction: column;
+                                    flex-direction: column;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-15s8d02 {
+                                    -webkit-flex-direction:initial;
+                                    -ms-flex-direction: initial;
+                                    flex-direction: initial;
+                                }
+                            }
+                        </style>
+                        <style data-emotion-css="1slhyuq">
+                            .css-1slhyuq {
+                                box-sizing: border-box;
+                                margin: 0;
+                                min-width: 0;
+                                display: grid;
+                                grid-gap: 16px;
+                                grid-template-columns: repeat(1,1fr);
+                                -webkit-flex-direction: column;
+                                -ms-flex-direction: column;
+                                flex-direction: column;
+                                -webkit-align-items: center;
+                                -webkit-box-align: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+                                justify-items: center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-1slhyuq {
+                                    grid-template-columns:repeat(1,1fr);
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-1slhyuq {
+                                    grid-template-columns:repeat(1,1fr);
+                                }
+                            }
+
+                            @media screen and (min-width: 64em) {
+                                .css-1slhyuq {
+                                    grid-template-columns:repeat(3,1fr);
+                                }
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-1slhyuq {
+                                    -webkit-flex-direction:column;
+                                    -ms-flex-direction: column;
+                                    flex-direction: column;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-1slhyuq {
+                                    -webkit-flex-direction:initial;
+                                    -ms-flex-direction: initial;
+                                    flex-direction: initial;
+                                }
+                            }
+                        </style>
+                        <div class="css-1slhyuq">
+                            <style data-emotion-css="1wzmhk">
+                                .css-1wzmhk {
+                                    width: 200px;
+                                    margin-left: 16px;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-1wzmhk {
+                                        width:200px;
+                                    }
+                                }
+
+                                @media screen and (min-width: 48em) {
+                                    .css-1wzmhk {
+                                        width:200px;
+                                    }
+                                }
+
+                                @media screen and (min-width: 64em) {
+                                    .css-1wzmhk {
+                                        width:250px;
+                                    }
+                                }
+                            </style>
+                            <img src="old.png" class="css-1wzmhk"/>
+                            <style data-emotion-css="16ksmwn">
+                                .css-16ksmwn {
+                                    margin-left: 4px;
+                                    margin-right: 0;
+                                    font-size: 24px;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-16ksmwn {
+                                        margin-left:32px;
+                                        margin-right: 16px;
+                                    }
+                                }
+
+                                @media screen and (min-width: 64em) {
+                                    .css-16ksmwn {
+                                        grid-column:2/4;
+                                    }
+                                }
+                            </style>
+                            <div class="css-16ksmwn">
+                                <p>The Scrapbook is the place where you can share what you are doing and see what your peers are doing!</p>
                             </div>
                         </div>
-                        <!-- Submit error message-->
-                        <!---->
-                        <!-- This is what your users will see when there is-->
-                        <!-- an error submitting the form-->
-                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                    </form>
+                        <style data-emotion-css="3crrj">
+                            .css-3crrj {
+                                width: 100%;
+                                font-size: 24px;
+                                text-align: center;
+                                margin-top: 16px;
+                            }
+                        </style>
+                        <div class="css-3crrj">
+                            <style data-emotion-css="1u2nday">
+                                .css-1u2nday {
+                                    color: var(--theme-ui-colors-white,#ffffff);
+                                    -webkit-text-decoration-line: none;
+                                    text-decoration-line: none;
+                                }
+                            </style>
+                            <a href="https://scrapbook.hackclub.com/" target="_blank" class="css-1u2nday">
+                                <style data-emotion-css="1i9hac6">
+                                    .css-1i9hac6:hover {
+                                        -webkit-text-decoration-line: underline;
+                                        text-decoration-line: underline;
+                                    }
+                                </style>
+                                <span class="css-1i9hac6">Take me there 
+                                <!-- -->
+                                &gt;</span>
+                            </a>
+                        </div>
+                    </div>
+                    <style data-emotion-css="ykjmnz">
+                        .css-ykjmnz {
+                            border-radius: 5px;
+                            margin-left: 0;
+                            margin-top: 16px;
+                            height: 450px;
+                            box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-ykjmnz {
+                                border-radius:8px;
+                                margin-left: 0;
+                                margin-top: 16px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-ykjmnz {
+                                margin-left:8px;
+                                margin-top: 0;
+                            }
+                        }
+                    </style>
+                    <img class="css-ykjmnz"/>
+                </div>
+            </div>
+            <style data-emotion-css="1q7o7y5">
+                .css-1q7o7y5 {
+                    margin-left: 16px;
+                    margin-bottom: 64px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-1q7o7y5 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 48em) {
+                    .css-1q7o7y5 {
+                        margin-left:32px;
+                    }
+                }
+
+                @media screen and (min-width: 64em) {
+                    .css-1q7o7y5 {
+                        margin-left:64px;
+                    }
+                }
+            </style>
+            <div class="css-1q7o7y5">
+                <style data-emotion-css="1aou2ip">
+                    .css-1aou2ip {
+                        font-size: 32px;
+                        color: grey;
+                        margin-bottom: 0;
+                    }
+                </style>
+                <h1 class="css-1aou2ip">Organize and attend hackathons!</h1>
+                <style data-emotion-css="10qcnnu">
+                    .css-10qcnnu {
+                        font-size: 48px;
+                        width: 90vw;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        color: var(--theme-ui-colors-blue,#338eda);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-10qcnnu {
+                            font-size:64px;
+                            width: 80vw;
+                        }
+                    }
+                </style>
+                <h1 class="css-10qcnnu">Hackathons</h1>
+                <style data-emotion-css="z693gr">
+                    .css-z693gr {
+                        font-size: 24px;
+                        width: 80vw;
+                    }
+                </style>
+                <p class="css-z693gr">
+                    Hack club members are running the largest hackathons across the world. We will give you full support right from<style data-emotion-css="1ctgzt0">
+                        .css-1ctgzt0 {
+                            background-image: linear-gradient(-100deg,rgba(51,214,166,0.33),rgba(51,214,166,0.95),rgba(243,234,164,0.1));
+                        }
+                    </style>
+                    <span class="css-1ctgzt0">
+                    <!-- -->
+                    day one which includes mentorship, stickers, and assistance
+                    <!-- -->
+                    </span>
+                    <!-- -->
+                    for successfully running your hackathon.
+                </p>
+                <style data-emotion-css="f9wkdb">
+                    .css-f9wkdb {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        grid-template-columns: repeat(1,1fr);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-f9wkdb {
+                            grid-template-columns:repeat(1,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-f9wkdb {
+                            grid-template-columns:repeat(2,1fr);
+                        }
+                    }
+                </style>
+                <div class="css-f9wkdb">
+                    <style data-emotion-css="ishfez">
+                        .css-ishfez {
+                            height: 450px;
+                            margin-right: 16px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-ishfez {
+                                margin-right:32px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-ishfez {
+                                margin-right:4px;
+                            }
+                        }
+                    </style>
+                    <div class="css-ishfez">
+                        <style data-emotion-css="1qpij34">
+                            .css-1qpij34 {
+                                background-image: linear-gradient(transparent,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.5) 100%),url("club.jpg");
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                width: 100%;
+                                background-size: cover;
+                                height: 100%;
+                                border-radius: 5px;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-flex-direction: column-reverse;
+                                -ms-flex-direction: column-reverse;
+                                flex-direction: column-reverse;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                padding-left: 16px;
+                                background-position: center center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-1qpij34 {
+                                    border-radius:8px;
+                                }
+                            }
+                        </style>
+                        <div class="css-1qpij34">
+                            <style data-emotion-css="7srm9g">
+                                .css-7srm9g {
+                                    font-size: 24px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    margin-top: 16px;
+                                    margin-bottom: 4px;
+                                    padding-bottom: 64px;
+                                    text-shadow: 1px 1px 5px black;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-7srm9g {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <p class="css-7srm9g">
+                                <b>Hack clubs regularly organizes hackathons,workshops and lot of events.</b>
+                            </p>
+                            <style data-emotion-css="h3t864">
+                                .css-h3t864 {
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    text-shadow: 1px 1px 5px black;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                    line-height: 120%;
+                                    color: var(--theme-ui-colors-green,#33d6a6);
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-h3t864 {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                        font-size: 48px;
+                                    }
+                                }
+                            </style>
+                            <h1 class="css-h3t864">
+                                Attend valuable <style data-emotion-css="kd74p6">
+                                    .css-kd74p6 {
+                                        color: var(--theme-ui-colors-white,#ffffff);
+                                    }
+                                </style>
+                                <span class="css-kd74p6">hackathons!</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <style data-emotion-css="1lfjyjt">
+                        .css-1lfjyjt {
+                            margin-right: 16px;
+                            height: 450px;
+                            margin-top: 8px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1lfjyjt {
+                                margin-top:0;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-1lfjyjt {
+                                margin-right:16px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-1lfjyjt {
+                                margin-right:4px;
+                            }
+                        }
+                    </style>
+                    <div class="css-1lfjyjt">
+                        <style data-emotion-css="7y3q3s">
+                            .css-7y3q3s {
+                                background-image: linear-gradient(transparent,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.5) 100%),url("projects.jpg");
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                width: 100%;
+                                background-size: cover;
+                                background-position: center center;
+                                height: 100%;
+                                border-radius: 5px;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-flex-direction: column-reverse;
+                                -ms-flex-direction: column-reverse;
+                                flex-direction: column-reverse;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                padding-left: 16px;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-7y3q3s {
+                                    border-radius:8px;
+                                }
+                            }
+                        </style>
+                        <div class="css-7y3q3s">
+                            <style data-emotion-css="1esztdf">
+                                .css-1esztdf {
+                                    font-size: 24px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    margin-top: 16px;
+                                    margin-bottom: 32px;
+                                    padding-bottom: 32px;
+                                    text-shadow: 1px 1px 5px black;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-1esztdf {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <p class="css-1esztdf">
+                                <b>
+                                    Hack club &#x27;s philosophy<span class="css-kd74p6">is learining by doing. </span>
+                                    Attend nearby hack club events and bring out the innovator inside you!
+                                </b>
+                            </p>
+                            <style data-emotion-css="13tzwzt">
+                                .css-13tzwzt {
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    text-shadow: 1px 1px 5px black;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-13tzwzt {
+                                        font-size:48px;
+                                        margin-left: 32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <h1 class="css-13tzwzt">
+                                <style data-emotion-css="kk1zlu">
+                                    .css-kk1zlu {
+                                        color: var(--theme-ui-colors-green,#33d6a6);
+                                    }
+                                </style>
+                                <span class="css-kk1zlu">Creative Ideas</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style data-emotion-css="1vv1si7">
+                .css-1vv1si7 {
+                    margin-left: 16px;
+                    margin-bottom: 64px;
+                    padding-bottom: 16px;
+                }
+
+                @media screen and (min-width: 32em) {
+                    .css-1vv1si7 {
+                        padding-bottom:32px;
+                        margin-left: 32px;
+                    }
+                }
+
+                @media screen and (min-width: 48em) {
+                    .css-1vv1si7 {
+                        padding-bottom:64px;
+                        margin-left: 32px;
+                    }
+                }
+
+                @media screen and (min-width: 64em) {
+                    .css-1vv1si7 {
+                        margin-left:64px;
+                    }
+                }
+            </style>
+            <div class="css-1vv1si7">
+                <style data-emotion-css="di4lpp">
+                    .css-di4lpp {
+                        color: grey;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                    }
+                </style>
+                <h1 class="css-di4lpp">
+                    <style data-emotion-css="8w8lnv">
+                        .css-8w8lnv {
+                            background-image: linear-gradient(-100deg,rgba(243,234,164,0.33),rgba(243,234,164,0.95),rgba(243,234,164,0.1));
+                        }
+                    </style>
+                    <span class="css-8w8lnv"></span>
+                    Start your own Hack Club!
+                </h1>
+                <style data-emotion-css="feonvq">
+                    .css-feonvq {
+                        font-size: 48px;
+                        width: 90vw;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        color: var(--theme-ui-colors-green,#33d6a6);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-feonvq {
+                            font-size:64px;
+                            width: 80vw;
+                        }
+                    }
+                </style>
+                <h1 class="css-feonvq">Apply for Hack Club 🧢</h1>
+                <style data-emotion-css="z693gr">
+                    .css-z693gr {
+                        font-size: 24px;
+                        width: 80vw;
+                    }
+                </style>
+                <p class="css-z693gr">
+                    You can apply for your own hack club if you don’t have a hack club near you. We are always looking for great club leaders and we will be more than happy to help you out in starting your club.
+                    <!-- -->
+                </p>
+                <style data-emotion-css="f9wkdb">
+                    .css-f9wkdb {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        grid-template-columns: repeat(1,1fr);
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-f9wkdb {
+                            grid-template-columns:repeat(1,1fr);
+                        }
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-f9wkdb {
+                            grid-template-columns:repeat(2,1fr);
+                        }
+                    }
+                </style>
+                <div class="css-f9wkdb">
+                    <style data-emotion-css="1q8uceb">
+                        .css-1q8uceb {
+                            border-radius: 8px;
+                            margin-right: 16px;
+                            color: var(--theme-ui-colors-white,#ffffff);
+                            padding-bottom: 32px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1q8uceb {
+                                padding-bottom:64px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-1q8uceb {
+                                margin-right:16px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-1q8uceb {
+                                margin-right:4px;
+                            }
+                        }
+
+                        .css-1q8uceb:after {
+                            display: none;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1q8uceb:after {
+                                display:initial;
+                            }
+                        }
+                    </style>
+                    <style data-emotion-css="1wl90t6">
+                        .css-1wl90t6 {
+                            position: relative;
+                            overflow: visible;
+                            background: linear-gradient(94.45deg,#ec3750 5.58%,#d61731 98.22%);
+                            border-radius: 8px;
+                            margin-right: 16px;
+                            color: var(--theme-ui-colors-white,#ffffff);
+                            padding-bottom: 32px;
+                        }
+
+                        .css-1wl90t6:after {
+                            content: '';
+                            display: inline-block;
+                            position: absolute;
+                            background-size: 100%;
+                            background-repeat: no-repeat;
+                            bottom: -4rem;
+                            right: -2rem;
+                            background-image: url(spiderman.png);
+                            width: 12rem;
+                            height: 12rem;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1wl90t6 {
+                                padding-bottom:64px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-1wl90t6 {
+                                margin-right:16px;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-1wl90t6 {
+                                margin-right:4px;
+                            }
+                        }
+
+                        .css-1wl90t6:after {
+                            display: none;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-1wl90t6:after {
+                                display:initial;
+                            }
+                        }
+                    </style>
+                    <div class="css-1wl90t6">
+                        <style data-emotion-css="d0uhtl">
+                            .css-d0uhtl {
+                                margin-left: 16px;
+                            }
+                        </style>
+                        <h1 class="css-d0uhtl">Join the movement!</h1>
+                        <style data-emotion-css="t9nsnh">
+                            .css-t9nsnh {
+                                margin-left: 16px;
+                                font-size: 24px;
+                            }
+                        </style>
+                        <p class="css-t9nsnh">Apply for a hack club and make a community of makers. We are looking for people like you to widespread the movement.</p>
+                        <style data-emotion-css="up605k">
+                            .css-up605k {
+                                margin-left: 16px;
+                                font-size: 24px;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                width: 10%;
+                                margin-bottom: 64px;
+                                -webkit-text-decoration-line: none;
+                                text-decoration-line: none;
+                            }
+
+                            .css-up605k:hover {
+                                -webkit-text-decoration-line: underline;
+                                text-decoration-line: underline;
+                            }
+                        </style>
+                        <a href="https://apply.hackclub.com/" target="_blank" class="css-up605k">
+                            <span>
+                                <b>Apply for hack club 
+                                <!-- -->
+                                &gt;</b>
+                            </span>
+                        </a>
+                    </div>
+                    <style data-emotion-css="us0yxy">
+                        .css-us0yxy {
+                            margin-right: 16px;
+                            margin-top: 8px;
+                            height: 400px;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-us0yxy {
+                                margin-top:64px;
+                                height: 400px;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-us0yxy {
+                                margin-top:0;
+                                height: initial;
+                            }
+                        }
+
+                        @media screen and (min-width: 64em) {
+                            .css-us0yxy {
+                                margin-right:4px;
+                            }
+                        }
+                    </style>
+                    <div class="css-us0yxy">
+                        <style data-emotion-css="u8xyr6">
+                            .css-u8xyr6 {
+                                background-image: linear-gradient(transparent,rgba(0,0,0,0.25) 50%,rgba(0,0,0,0.5) 100%),url("communityind.jpg");
+                                box-shadow: rgba(0,0,0,0.063) 0px 8px 32px;
+                                width: 100%;
+                                background-size: cover;
+                                background-position: center center;
+                                height: 100%;
+                                border-radius: 5px;
+                                display: -webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                                -webkit-flex-direction: column-reverse;
+                                -ms-flex-direction: column-reverse;
+                                flex-direction: column-reverse;
+                                color: var(--theme-ui-colors-white,#ffffff);
+                                padding-left: 16px;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-u8xyr6 {
+                                    border-radius:8px;
+                                }
+                            }
+                        </style>
+                        <div class="css-u8xyr6">
+                            <style data-emotion-css="13oc5y2">
+                                .css-13oc5y2 {
+                                    font-size: 24px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    margin-top: 16px;
+                                    margin-bottom: 32px;
+                                    text-shadow: 1px 1px 5px black;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-13oc5y2 {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <p class="css-13oc5y2">
+                                <b>
+                                    Hack clubs are communities of<style data-emotion-css="loxxjh">
+                                        .css-loxxjh {
+                                            color: var(--theme-ui-colors-cyan,#5bc0de);
+                                        }
+                                    </style>
+                                    <span class="css-loxxjh">makers </span>
+                                    and we would be more than happy to help you make your own hack club!
+                                </b>
+                            </p>
+                            <style data-emotion-css="e0oeuf">
+                                .css-e0oeuf {
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                    font-size: 32px;
+                                    text-shadow: 1px 1px 5px black;
+                                    margin-top: 0;
+                                    margin-bottom: 0;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-e0oeuf {
+                                        margin-left:32px;
+                                        margin-right: 32px;
+                                    }
+                                }
+                            </style>
+                            <h1 class="css-e0oeuf">
+                                Make a <style data-emotion-css="1rjednt">
+                                    .css-1rjednt {
+                                        color: var(--theme-ui-colors-orange,#ff8c37);
+                                    }
+                                </style>
+                                <span class="css-1rjednt">community!</span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style data-emotion-css="bt1et9">
+                .css-bt1et9 {
+                    width: 100vw;
+                    background: rgb(249,249,250) url("/pattern.svg") repeat scroll 0% 0;
+                    padding-top: 64px;
+                    margin-top: 16px;
+                    padding-bottom: 64px;
+                }
+            </style>
+            <div class="footer css-bt1et9">
+                <style data-emotion-css="1p9if7x">
+                    .css-1p9if7x {
+                        width: 100vw;
+                        gap: 0;
+                    }
+
+                    .css-1p9if7x img:hover {
+                        cursor: pointer;
+                        -webkit-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                        transform: scale(1.1);
+                        -webkit-transition: 0.1s;
+                        transition: 0.1s;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-1p9if7x {
+                            gap:initial;
+                        }
+                    }
+                </style>
+                <style data-emotion-css="943e9v">
+                    .css-943e9v {
+                        box-sizing: border-box;
+                        margin: 0;
+                        min-width: 0;
+                        display: grid;
+                        grid-gap: 16px;
+                        width: 100vw;
+                        gap: 0;
+                    }
+
+                    @media screen and (min-width: 48em) {
+                        .css-943e9v {
+                            grid-template-columns:repeat(2,1fr);
+                        }
+                    }
+
+                    .css-943e9v img:hover {
+                        cursor: pointer;
+                        -webkit-transform: scale(1.1);
+                        -ms-transform: scale(1.1);
+                        transform: scale(1.1);
+                        -webkit-transition: 0.1s;
+                        transition: 0.1s;
+                    }
+
+                    @media screen and (min-width: 32em) {
+                        .css-943e9v {
+                            gap:initial;
+                        }
+                    }
+                </style>
+                <div class="css-943e9v">
+                    <style data-emotion-css="a4vzh6">
+                        .css-a4vzh6 {
+                            margin-left: auto;
+                            margin-right: auto;
+                            display: -webkit-box;
+                            display: -webkit-flex;
+                            display: -ms-flexbox;
+                            display: flex;
+                            -webkit-flex-wrap: wrap;
+                            -ms-flex-wrap: wrap;
+                            flex-wrap: wrap;
+                            -webkit-box-pack: center;
+                            -webkit-justify-content: center;
+                            -ms-flex-pack: center;
+                            justify-content: center;
+                        }
+
+                        @media screen and (min-width: 32em) {
+                            .css-a4vzh6 {
+                                display:-webkit-box;
+                                display: -webkit-flex;
+                                display: -ms-flexbox;
+                                display: flex;
+                            }
+                        }
+
+                        @media screen and (min-width: 48em) {
+                            .css-a4vzh6 {
+                                display:initial;
+                            }
+                        }
+
+                        .css-a4vzh6 a {
+                            -webkit-text-decoration-line: none;
+                            text-decoration-line: none;
+                            color: #1F2D48;
+                        }
+                    </style>
+                    <div class="footerfirsthalf css-a4vzh6">
+                        <style data-emotion-css="qdtd3s">
+                            .css-qdtd3s {
+                                margin-left: 16px;
+                                font-size: 20px;
+                                text-align: center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-qdtd3s {
+                                    margin-left:16px;
+                                    font-size: 20px;
+                                    text-align: center;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-qdtd3s {
+                                    margin-left:64px;
+                                    font-size: 24px;
+                                    text-align: initial;
+                                }
+                            }
+                        </style>
+                        <p class="css-qdtd3s">
+                            <style data-emotion-css="1v7bp51">
+                                .css-1v7bp51 {
+                                    text-align: center;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-1v7bp51 {
+                                        text-align:center;
+                                    }
+                                }
+
+                                @media screen and (min-width: 48em) {
+                                    .css-1v7bp51 {
+                                        text-align:initial;
+                                    }
+                                }
+                            </style>
+                            <span class="css-1v7bp51">Mang'u Hack Club</span>
+                        </p>
+                        <style data-emotion-css="a3td8">
+                            .css-a3td8 {
+                                margin-left: 16px;
+                                margin-top: 0;
+                                font-size: 20px;
+                                -webkit-flex-basis: 100%;
+                                -ms-flex-preferred-size: 100%;
+                                flex-basis: 100%;
+                                text-align: center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-a3td8 {
+                                    margin-left:16px;
+                                    font-size: 20px;
+                                    -webkit-flex-basis: 100%;
+                                    -ms-flex-preferred-size: 100%;
+                                    flex-basis: 100%;
+                                    text-align: center;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-a3td8 {
+                                    margin-left:64px;
+                                    font-size: 24px;
+                                    text-align: initial;
+                                }
+                            }
+                        </style>
+                        <p class="css-a3td8">Contact: thesavage.joe001@gmail.com</p>
+                    </div>
+                    <style data-emotion-css="a9n7s9">
+                        .css-a9n7s9 {
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    </style>
+                    <div class="footersecondhalf css-a9n7s9">
+                        <style data-emotion-css="7e0dbd">
+                            .css-7e0dbd {
+                                font-size: 20px;
+                                margin-right: 4px;
+                                text-align: center;
+                            }
+
+                            @media screen and (min-width: 32em) {
+                                .css-7e0dbd {
+                                    font-size:20px;
+                                }
+                            }
+
+                            @media screen and (min-width: 48em) {
+                                .css-7e0dbd {
+                                    font-size:24px;
+                                }
+                            }
+                        </style>
+                        <p class="css-7e0dbd">Connect With Us</p>
+                        <a href="https://www.facebook.com//" target="_blank">
+                            <style data-emotion-css="1d236gc">
+                                .css-1d236gc {
+                                    width: 40px;
+                                    height: 40px;
+                                    margin-left: 8px;
+                                    margin-right: 8px;
+                                }
+
+                                @media screen and (min-width: 32em) {
+                                    .css-1d236gc {
+                                        width:46px;
+                                        height: 46px;
+                                        margin-left: 16px;
+                                        margin-right: 16px;
+                                    }
+                                }
+
+                                @media screen and (min-width: 48em) {
+                                    .css-1d236gc {
+                                        width:50px;
+                                        height: 50px;
+                                    }
+                                }
+
+                                @media screen and (min-width: 64em) {
+                                    .css-1d236gc {
+                                        width:64px;
+                                        height: 64px;
+                                    }
+                                }
+                            </style>
+                            <img src="social/facebook.png" class="css-1d236gc"/>
+                        </a>
+                        <a href="https://www.instagram.com//" target="_blank">
+                            <img src="social/instagram.png" class="css-1d236gc"/>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <img src="social/twitter.png" class="css-1d236gc"/>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img src="social/youtube.png" class="css-1d236gc"/>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Social Icons-->
-        <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
-        <div class="social-icons">
-            <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>
-            </div>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script id="__NEXT_DATA__" type="application/json">
+            {
+                "props": {
+                    "pageProps": {
+                    }
+                },
+                "page": "/",
+                "query": {
+                },
+                "buildId": "bpncQpilGEUkTaBva2Bg2",
+                "runtimeConfig": {
+                },
+                "nextExport": true,
+                "autoExport": true,
+                "isFallback": false
+            }</script>
+        <script nomodule="" src="/_next/static/chunks/polyfills-9a32872f6a983227f3b1.js"></script>
+        <script src="/_next/static/chunks/main-f476aac0a8848e0d8448.js" async=""></script>
+        <script src="/_next/static/chunks/webpack-488dc228921f1fdbc0e7.js" async=""></script>
+        <script src="/_next/static/chunks/framework.2bcaee6b7a18992fa1c5.js" async=""></script>
+        <script src="/_next/static/chunks/33ae0775124a90468ef9aeb9ace91063700a85a3.703fbe46207251bc5a50.js" async=""></script>
+        <script src="/_next/static/chunks/f6078781a05fe1bcb0902d23dbbb2662c8d200b3.c7550f8ccfc5ab475eae.js" async=""></script>
+        <script src="/_next/static/chunks/pages/_app-08ced872592af29ce7ef.js" async=""></script>
+        <script src="/_next/static/chunks/fcca927b636558ec201c52bbc56a78ca69a5c73f.2c3e526bdb579c8e103d.js" async=""></script>
+        <script src="/_next/static/chunks/pages/index-e5bc24bc39080db2e520.js" async=""></script>
+        <script src="/_next/static/bpncQpilGEUkTaBva2Bg2/_buildManifest.js" async=""></script>
+        <script src="/_next/static/bpncQpilGEUkTaBva2Bg2/_ssgManifest.js" async=""></script>
     </body>
 </html>
